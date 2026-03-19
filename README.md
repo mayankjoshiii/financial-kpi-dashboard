@@ -3,7 +3,7 @@
 
 **Tools:** Excel (Advanced) · Plotly.js · GitHub Pages
 **Dataset:** UK Retail Sales Data (ONS) / Kaggle Financial Dataset
-**Live Dashboard:** [🔗 View Live Interactive Dashboard](https://mayankjoshi518-coder.github.io/financial-kpi-dashboard/)
+**Live Dashboard:** [🔗 View Live Interactive Dashboard](https://mayankjoshiii.github.io/financial-kpi-dashboard/)
 
 
 ---
