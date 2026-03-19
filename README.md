@@ -1,18 +1,25 @@
 # Financial KPI Dashboard
 
-**Tools:** Excel (Advanced) · Tableau Public · Power BI Desktop
+
+**Tools:** Excel (Advanced) · Plotly.js · GitHub Pages
 **Dataset:** UK Retail Sales Data (ONS) / Kaggle Financial Dataset
-**Live Dashboard:** [View on Tableau Public](#) *(link once published)*
+**Live Dashboard:** [🔗 View Live Interactive Dashboard](https://mayankjoshi518-coder.github.io/financial-kpi-dashboard/)
+
 
 ---
+
 
 ## Problem Statement
 
+
 Finance teams need real-time visibility into revenue performance, cost control, and margin trends. This project builds an end-to-end financial KPI dashboard — from raw data to boardroom-ready visualisations.
+
 
 ---
 
+
 ## What Was Built
+
 
 ### Excel Model (`/data/financial_model.xlsx`)
 - **Revenue Forecast** using 3-month and 6-month moving averages
@@ -20,8 +27,10 @@ Finance teams need real-time visibility into revenue performance, cost control, 
 - **P&L Summary** — Revenue, Gross Profit, EBITDA by month and segment
 - **Pivot Tables** — Drill-down by region, product category, and time period
 
+
 ### Tableau / Power BI Dashboard
 4 views with interactive filters (date range, region, product category):
+
 
 | View | What It Shows |
 |------|---------------|
@@ -30,9 +39,12 @@ Finance teams need real-time visibility into revenue performance, cost control, 
 | Cost Breakdown | Waterfall chart — COGS, OpEx, EBITDA |
 | KPI Status Board | RAG traffic-light for 8 core KPIs |
 
+
 ---
 
+
 ## Key KPIs Tracked
+
 
 | KPI | Target | Status |
 |-----|--------|--------|
@@ -45,32 +57,14 @@ Finance teams need real-time visibility into revenue performance, cost control, 
 | Budget Variance | <5% | 🟡 Watch |
 | Forecast Accuracy | >90% | 🟢 On Track |
 
+
 ---
 
+
 ## Repository Structure
+
 
 ```
 financial-kpi-dashboard/
 ├── data/
 │   ├── financial_model.xlsx        # Excel model with forecasts + variance analysis
-│   └── retail_sales_sample.csv     # Raw data (50-row sample)
-├── visualisations/
-│   ├── tableau_dashboard.png       # Dashboard screenshot
-│   ├── revenue_trends.png
-│   └── kpi_rag_board.png
-└── README.md
-```
-
----
-
-## How to Use
-
-1. **Excel Model:** Open `data/financial_model.xlsx` — all formulas are unlocked and documented
-2. **Tableau Dashboard:** Download `data/retail_sales_sample.csv` and connect in Tableau Public
-3. **Power BI:** Import the CSV and use the provided `.pbix` template (coming soon)
-
----
-
-## Business Insight
-
-> Revenue growth has slowed to 1.8% MoM against a 3% target, driven by underperformance in the North West region (–12% vs budget). Gross margin held above 42% due to cost efficiencies in the Electronics segment. Recommendation: redirect £80K of the North West marketing budget to the South East, where conversion rates are 34% above average.
